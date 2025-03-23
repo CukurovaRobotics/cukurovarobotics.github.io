@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container for content width */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* Main content sections */
+.intro, .about, .research, .people, .contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.intro h2, .about h2, .research h2, .people h2, .contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.intro p, .about p, .research p, .people p, .contact p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Highlights section on home page */
+.highlights {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.highlight {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.highlight h3 {
+  margin-bottom: 10px;
+}
+
+.highlight p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.highlight a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
